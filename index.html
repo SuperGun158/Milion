@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>edsnfgkjesfvoihjedoiwvthpswqc</title>
+</head>
+<body>
+	<div class="block">
+		<div class="win">
+			<div class="pomos">
+				<button class="pom p1">
+					50:50
+				</button>
+				<button class="pom p2">
+					Зал
+				</button>
+				<button class="pom p3">
+					Звонок
+				</button>
+			</div>
+			<img src="logo.png">
+			<div class="won">
+				<div class="text2">
+					<h3> 1: 500</h3>
+				</div>
+				<div class="text2">
+					<h3> 2: 1000</h3>
+				</div>
+				<div class="text2">
+					<h3> 3: 2000</h3>
+				</div>
+				<div class="text2">
+					<h3> 4: 3000</h3>
+				</div>
+				<div class="text2">
+					<h3> 5: 5000</h3>
+				</div>
+				<div class="text2">
+					<h3> 6: 10000</h3>
+				</div>
+				<div class="text2">
+					<h3> 7: 15000</h3>
+				</div>
+				<div class="text2">
+					<h3> 8: 25000</h3>
+				</div>
+				<div class="text2">
+					<h3> 9: 50000</h3>
+				</div>
+				<div class="text2">
+					<h3> 10: 100000</h3>
+				</div>
+				<div class="text2">
+					<h3> 11: 200000</h3>
+				</div>
+				<div class="text2">
+					<h3> 12: 400000</h3>
+				</div>
+				<div class="text2">
+					<h3> 13: 800000</h3>
+				</div>
+				<div class="text2">
+					<h3> 14: 1500000</h3>
+				</div>
+				<div class="text2">
+					<h3> 15: 3000000</h3>
+				</div>
+			</div>
+		</div>
+		<div class="what">
+			<div class="text">
+				<h3 class="what2">
+					Кто Патрик?
+				</h3>
+			</div>
+			<div class="otv">
+				<div class="gomo">
+					<button class="btn btn1">
+						Украина
+					</button>
+					<button class="btn btn2">
+						Казахстан
+					</button>
+				</div>
+				<div class="gomo">
+					<button class="btn btn3">
+						Отличник
+					</button>
+					<button class="btn btn4">
+						Сын маминой подруги
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let p1 = document.querySelector('.p1');
+		let p2 = document.querySelector('.p2');
+		let p3 = document.querySelector('.p3');
+		let btn1 = document.querySelector('.btn1');
+		let btn2 = document.querySelector('.btn2');
+		let btn3 = document.querySelector('.btn3');
+		let btn4 = document.querySelector('.btn4');
+		let win = document.querySelectorAll('.text2');
+		let what2 = document.querySelector('.what2');
+		let prover = 1;
+		btn1.onclick = function(){
+			if (prover == 1) {
+			what2.innerHTML = 'Кто лучьше?'
+			alert('Правильно')
+			prover = 2
+		}
+			else{
+			alert('Неправильно')
+			}
+		}
+		btn2.onclick = function(){
+			if (prover == 2) {
+			what2.innerHTML = 'Кто срёт больше?'
+			alert('Правильно')
+			prover = 3
+		}
+			else{
+			alert('Неправильно')
+			}
+		}
+		btn3.onclick = function(){
+			if (prover == 3) {
+			what2.innerHTML = 'Кто умнее?'
+			alert('Правильно')
+			prover = 4
+		}
+			else{
+			alert('Неправильно')
+			}
+		}
+		btn4.onclick = function(){
+			if (prover == 4) {
+			what2.innerHTML = 'Кто такой СВАП?'
+			alert('Правильно')
+			prover = 1
+		}
+			else{
+			alert('Неправильно')
+			}
+		}
+	</script>
+</body>
+</html>
